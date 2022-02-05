@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wajeez  Android developer task</string>
+
+    <string name="search">Search</string>
+
+    <string name="filter_result">Filter Result</string>
+    <string name="filter_with_image">With Image</string>
+    <string name="filter_without_image">Without Image</string>
+    <string name="filter_confirm">Confirm</string>
+
+    <string name="add_new_name">Add new name</string>
+    <string name="type_the_name">Type the name</string>
+    <string name="done">Done</string>
+
+    <string name="field_required">field required</string>
+    <string name="without_image">Without Image</string>
+
+</resources>

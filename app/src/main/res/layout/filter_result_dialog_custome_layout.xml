@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_title_filter_result_dialog_custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/filter_result"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_filter_result_dialog_custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbtn_with_image_filter_result_dialog_custom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:checked="true"
+            android:text="@string/filter_with_image" />
+
+        <RadioButton
+            android:id="@+id/rbtn_without_image_filter_result_dialog_custom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:text="@string/filter_without_image" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_confirm_filter_result_dialog_custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/filter_confirm"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
